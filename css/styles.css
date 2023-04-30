@@ -90,10 +90,10 @@ button {
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #4D5AE5;
+        color: var(--button-color);
 }
 .header-logo {
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 
@@ -161,8 +161,20 @@ margin-left: auto;
 
 .hero-section {
     text-align: center;
-    background: #2E2F42;
+    background: var(--subtitle-color);
     padding: 188px 0;
+}
+
+.hero-overlay {
+    max-width: 1440px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/background/people-office.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -193,7 +205,7 @@ display: block;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #4D5AE5;
+    background: var(--button-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -201,7 +213,7 @@ display: block;
 
 .hero-button:hover,
 .hero-button:focus {
-background: #404BBF;
+background: var(--hover-focus-color);
  color: #FFFFFF;
 }
 
@@ -224,6 +236,26 @@ background: #404BBF;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.svg-section-two {
+    display: flex;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+
+.svg {
+    width: 64px;
+    height: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+
 }
 
 .list-visually-hidden {
@@ -287,7 +319,7 @@ width: calc((100% - 72px) / 4);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--subtitle-color);
 }
 
 .section-three-item {}
@@ -345,7 +377,7 @@ width: calc((100% - 72px) / 4);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-    background: #404BBF;
+    background: var(--hover-focus-color);
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid transparent;
@@ -414,7 +446,7 @@ margin-bottom: 0;
 /* FOOTER */
 
 .footer {
-    background: #2E2F42;
+    background: var(--subtitle-color);
 }
 
 .text-footer {
@@ -455,6 +487,6 @@ margin-bottom: 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--button-color);
 }
 
