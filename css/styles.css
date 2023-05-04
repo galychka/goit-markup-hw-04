@@ -242,9 +242,10 @@ background: #404BBF;
 .svg-section-two {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
-
+    margin-bottom: 8px;
     background: #F4F4FD;
     border-radius: 4px;
 }
@@ -351,7 +352,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .container-card-team {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .item-card-text {
     padding-bottom: 8px;
@@ -378,7 +379,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .social-icons {
-    fill: currentColor;
+    fill: #f4f4fd;
 }
 
 .socials-link:hover, 
@@ -391,12 +392,12 @@ width: calc((100% - 72px) / 4);
 /* Customers*/
 
 .customers {
-
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .customers-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
 }
 
 .customers-list {
@@ -430,7 +431,7 @@ border: 1px solid #8E8F99;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.1;
     
         text-align: center;
         letter-spacing: 0.02em;
@@ -583,7 +584,10 @@ margin-bottom: 0;
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+
+}
+.footer-logo-container {
+    margin-right: 120px;
 }
 
 .social-media-container {
@@ -597,7 +601,7 @@ margin-bottom: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     
