@@ -100,7 +100,7 @@ button {
 
 .menu:hover,
 .menu:focus {
-    color: var(--hover-focus-color);
+    color: #404BBF;
 }
 
 .menu {
@@ -136,7 +136,7 @@ margin-left: auto;
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--hover-focus-color);
+    color: #404BBF;
 }
 
 .address-link {
