@@ -100,7 +100,7 @@ button {
 
 .menu:hover,
 .menu:focus {
-    color: var(--hover-focus-color)
+    color: var(--hover-focus-color);
 }
 
 .menu {
@@ -136,7 +136,7 @@ margin-left: auto;
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--hover-focus-color)
+    color: var(--hover-focus-color);
 }
 
 .address-link {
@@ -251,12 +251,6 @@ background: #404BBF;
 }
 
 .svg {
-    
-    margin-right: auto;
-    margin-left: auto;
-    
-    
-
 }
 
 .list-visually-hidden {
@@ -301,7 +295,10 @@ width: calc((100% - 72px) / 4);
 }
 
 .list-lead-two {
-    text-align: start;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /* Section three */
 .section-three {
@@ -355,7 +352,7 @@ width: calc((100% - 72px) / 4);
     padding: 32px 0;
 }
 .item-card-text {
-    padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .social-list {
@@ -364,22 +361,28 @@ width: calc((100% - 72px) / 4);
     align-items: center;
     gap: 24px;
     list-style: none;
+}
 
+.socials-item {
+width: 40px;
+height: 40px;
 }
 
 .socials-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     background: var(--button-color);
     color: #FFFFFF;
     border-radius: 50%;
+    
 }
 
 .social-icons {
     fill: #f4f4fd;
+    
 }
 
 .socials-link:hover, 
@@ -401,7 +404,6 @@ padding-bottom: 120px;
 }
 
 .customers-list {
-    flex-wrap: nowrap;
     gap: 24px;
 }
 
@@ -596,9 +598,6 @@ margin-bottom: 0;
 
 .social-title {
     margin-bottom: 16px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
